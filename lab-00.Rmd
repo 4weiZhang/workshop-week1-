@@ -46,27 +46,5 @@ p1 <- ggplot(data = team_data,
 p1
 ```
 
-
 *Remove this text (including the stars), and add your answer for Exercise 18 here.*
 
-### Exercises 19
-
-Change the text of the plot title and axis labels.
-
-```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
-```
-
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
-
-### Exercise 20
-
-```{r new-bar-plot}
-p2 <- ggplot(team_data, aes(x = hobby)) +
-  geom_bar()
-p2
-```
-
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
